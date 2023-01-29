@@ -1,0 +1,40 @@
+.iconsBody {
+    text-align: center;
+    border: 0ch;
+    cursor: pointer;
+    flex-direction: row;
+    display: flex;
+    justify-content: center;
+    border: 1px solid lightgray;
+    position: fixed;
+    height: 50px;
+    background-color: white;
+    overflow: auto;
+    width: 100%;
+    padding-left: 25px;
+
+
+
+}
+
+.iconS {
+    justify-content: center;
+    padding-right: 100px;
+    position: sticky;
+    display: block;
+    top: 50%;
+    padding-top: 8px;
+
+
+}
+
+.AiFillHome {
+    width: 24px;
+    height: 24px;
+}
+
+.descIcon {
+    width: 67px;
+    height: 16px;
+    font-size: 12px;
+}

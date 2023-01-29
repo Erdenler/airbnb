@@ -1,0 +1,32 @@
+.searhBar {
+    position: relative;
+    border-radius: 99px;
+    width: 300px;
+    height: 40px;
+}
+
+input {
+    width: 292px;
+    height: 34px;
+    border-radius: 40px;
+    border-color: #dedede;
+    font: 'Circular', -apple-system, 'BlinkMacSystemFont', 'Roboto', 'Helvetica Neue', sans-serif, #dededf;
+    font-size: 14px bolder;
+
+}
+
+.iconSearch {
+    right: 0;
+    color: #ff385c;
+    right: 0;
+    color: #ff385c;
+    top: 50%;
+    transform: translateY(-50%) translateY(5%);
+    margin-right: 2px;
+}
+
+.details1 {
+    width: 560px;
+    height: 300px;
+
+}

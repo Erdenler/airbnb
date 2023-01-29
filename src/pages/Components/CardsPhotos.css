@@ -1,0 +1,58 @@
+.cards {
+    margin: 8px 0px -60px;
+    border: 0px solid black;
+    overflow: hidden;
+    transition: transform 100ms ease-in;
+    cursor: pointer;
+    padding: 32px;
+}
+
+.cards>img {
+    object-fit: fill;
+    width: 100%;
+    width: 302px;
+    height: 286px;
+    border-radius: 10px;
+}
+
+.card-info {
+    width: 302px;
+    height: 100px;
+
+}
+
+.home-section {
+    display: flex;
+    flex-direction: row;
+    margin-top: 40px;
+    margin-right: 60px;
+    margin-left: 60px;
+}
+
+h3 {
+    font-size: 15px;
+    text-align: left;
+    justify-content: left;
+    margin-left: 0px;
+    margin-bottom: 0px;
+    margin-top: 1px;
+    font-family: ui-monospace;
+}
+
+h4 {
+    font-size: 15px;
+    margin: 0px;
+    margin-left: 0px;
+    text-align: left;
+    color: dimgray;
+    font-family: ui-serif;
+}
+
+h2 {
+    font-size: 15px;
+    justify-content: center;
+    margin-top: 0px;
+    margin-bottom: 0px;
+    text-align: left;
+    font-family: system-ui;
+}

@@ -1,0 +1,131 @@
+.header-left {
+    width: 385px;
+    justify-content: left;
+    display: flex;
+    object-fit: contain;
+}
+
+.header-icon {
+    object-fit: contain;
+    margin-left: 80px;
+    width: 100px;
+    height: 64px;
+}
+
+.header {
+    display: flex;
+    flex: 1;
+    justify-content: space-between;
+    align-items: center;
+    position: sticky;
+    z-index: 100;
+    width: 100%;
+    top: 0;
+    background-color: white;
+    height: 80px;
+}
+
+.header-center {
+    display: flex;
+    align-items: center;
+    max-width: -moz-fit-content;
+    height: 48px;
+    border: 1px solid lightgray;
+    border-radius: 900px;
+    width: 508px;
+
+}
+
+.header-center>label {
+    margin: 0px;
+    padding: 0px;
+
+}
+
+.header-right {
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    width: 385px;
+    margin-right: 80px;
+    height: 30px;
+}
+
+.searchIcon {
+    right: 0;
+    color: #ff385c;
+    margin-left: -15px;
+    width: 62px;
+    height: 62px;
+    display: flex;
+
+}
+
+.header-center>label {
+    padding: 10px;
+    width: 200px;
+    font-size: 14px;
+    font-weight: bold;
+
+}
+
+.rightIcons {
+    border: 1px solid lightgray;
+    border-radius: 900px;
+    box-shadow: 1px;
+    width: 77px;
+    height: 42px;
+    display: flex;
+    padding: 0px;
+    position: relative;
+}
+
+.iconMenu {
+    align-items: center;
+    justify-content: center;
+    width: 16px;
+    height: 16px;
+    margin-left: 10px;
+    margin-top: 14px;
+    margin-right: -10px;
+
+}
+
+.iconProfile {
+    width: 36px;
+    margin-left: 19px;
+    height: 36px;
+    margin-top: 4px;
+    color: #717169;
+
+}
+
+.iconLang {
+    width: 16px;
+    height: 16px;
+    padding: 3px;
+    /* margin-left: 60px; */
+    padding-right: 30px;
+}
+
+.picker {
+    position: absolute;
+    border: 0ch;
+    outline: 0ch;
+    background-color: transparent;
+    width: 30%;
+}
+
+.evSahibi {
+    padding: 3px;
+    font-size: 14px;
+    font-weight: bolder;
+    /* margin-right: -150px; */
+    /* margin-left: 50px; */
+    display: flex;
+    padding-right: 30px;
+}
+
+.misafir {
+    color: #717171;
+}
